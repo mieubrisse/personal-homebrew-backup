@@ -95,6 +95,8 @@ brew "tmux"
 brew "todoist-cli"
 # Extremely fast Python package installer and resolver, written in Rust
 brew "uv"
+# Command-line interface for Vercel
+brew "vercel-cli"
 # Vi 'workalike' with many additional features
 brew "vim"
 # Port of OpenAI's Whisper model in C/C++
@@ -113,6 +115,8 @@ cask "activitywatch"
 cask "aldente"
 # Memory training application
 cask "anki"
+# CLI for the Claude Platform
+cask "anthropics/tap/ant"
 # OpenAI's official ChatGPT desktop app
 cask "chatgpt"
 # Automated testing of webapps for Google Chrome
