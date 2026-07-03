@@ -65,6 +65,8 @@ brew "jq"
 brew "lazygit"
 # Pager program similar to more
 brew "less"
+# Remote terminal application
+brew "mosh"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
 # Port scanning utility for large networks
