@@ -98,7 +98,7 @@ brew "todoist-cli"
 # Extremely fast Python package installer and resolver, written in Rust
 brew "uv"
 # Command-line interface for Vercel
-brew "vercel-cli"
+brew "vercel"
 # Vi 'workalike' with many additional features
 brew "vim"
 # Port of OpenAI's Whisper model in C/C++
@@ -117,8 +117,7 @@ cask "activitywatch"
 cask "aldente"
 # Memory training application
 cask "anki"
-# CLI for the Claude Platform
-cask "anthropics/tap/ant"
+cask "ant"
 # OpenAI's official ChatGPT desktop app
 cask "chatgpt"
 # Automated testing of webapps for Google Chrome
@@ -135,7 +134,6 @@ cask "discord"
 cask "disk-inventory-x"
 # App to build and share containerised applications and microservices
 cask "docker-desktop"
-# Tool to hide status bar icons
 cask "dozer"
 # Web browser
 cask "firefox"
@@ -159,7 +157,6 @@ cask "iterm2"
 cask "karabiner-elements"
 # Open-source keystroke visualiser
 cask "keycastr"
-# Interface for reading and syncing eBooks
 cask "kindle"
 # Wallet desktop application to maintain multiple cryptocurrencies
 cask "ledger-wallet"
@@ -181,7 +178,6 @@ cask "raycast"
 cask "rekordbox"
 # Team communication and collaboration software
 cask "slack"
-# Move and resize windows with ease
 cask "spectacle"
 # Music streaming service
 cask "spotify"
@@ -199,13 +195,3 @@ cask "whatsapp"
 cask "wispr-flow"
 # Video communication and virtual meeting platform
 cask "zoom"
-go "golang.org/x/tools/cmd/deadcode"
-go "github.com/tcnksm/ghr"
-go "golang.org/x/tools/cmd/goimports"
-go "golang.org/x/tools/gopls"
-go "golang.org/x/vuln/cmd/govulncheck"
-go "github.com/oapi-codegen/oapi-codegen/v2/cmd/oapi-codegen"
-go "honnef.co/go/tools/cmd/staticcheck"
-npm "@playwright/cli"
-npm "corepack"
-npm "markdown-link-check"
