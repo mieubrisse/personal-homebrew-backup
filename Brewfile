@@ -174,11 +174,12 @@ cask "notion"
 cask "obsidian"
 # Control your tools with a few keystrokes
 cask "raycast"
+# Move and resize windows using keyboard shortcuts or snap areas
+cask "rectangle"
 # Free Dj app to prepare and manage your music files
 cask "rekordbox"
 # Team communication and collaboration software
 cask "slack"
-cask "spectacle"
 # Music streaming service
 cask "spotify"
 # Video game digital distribution service
