@@ -102,7 +102,7 @@ brew "vercel"
 # Vi 'workalike' with many additional features
 brew "vim"
 # Port of OpenAI's Whisper model in C/C++
-brew "whisper-cpp"
+brew "whisper.cpp"
 # Feature-rich command-line audio/video downloader
 brew "yt-dlp"
 # Command-line interface for Resend
