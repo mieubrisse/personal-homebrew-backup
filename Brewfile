@@ -1,5 +1,6 @@
 tap "4ier/tap"
 tap "anthropics/tap"
+tap "artzainnn/tap", "https://github.com/Artzainnn/homebrew-tap"
 tap "dicklesworthstone/tap"
 tap "mieubrisse/agenc"
 tap "mieubrisse/cmdk"
