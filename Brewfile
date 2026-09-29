@@ -161,6 +161,8 @@ cask "keycastr"
 cask "kindle"
 # Wallet desktop application to maintain multiple cryptocurrencies
 cask "ledger-wallet"
+# App to manage software development and track bugs
+cask "linear"
 # Break time reminder app
 cask "lookaway"
 # Speech recognition tool
