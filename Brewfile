@@ -6,8 +6,6 @@ tap "mieubrisse/agenc"
 tap "mieubrisse/cmdk"
 tap "mieubrisse/yappblocker"
 tap "resend/cli"
-# TIFF library and utilities
-brew "libtiff"
 # Bourne-Again SHell, a UNIX command interpreter
 brew "bash"
 # Programmable completion for Bash 4.2+
@@ -26,6 +24,8 @@ brew "cairo"
 brew "colordiff"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
+# TIFF library and utilities
+brew "libtiff"
 # Reference implementation for the Development Containers specification
 brew "devcontainer"
 # Good-lookin' diffs with diff-highlight and more
@@ -74,6 +74,8 @@ brew "neovim"
 brew "nmap"
 # Development kit for the Java programming language
 brew "openjdk@11"
+# Friendly PIL fork (Python Imaging Library)
+brew "pillow"
 # Execute binaries from Python packages in isolated environments
 brew "pipx"
 # PDF rendering library (based on the xpdf-3.0 code base)
