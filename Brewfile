@@ -72,6 +72,8 @@ brew "mosh"
 brew "neovim"
 # Port scanning utility for large networks
 brew "nmap"
+# Create, run, and share large language models (LLMs)
+brew "ollama"
 # Development kit for the Java programming language
 brew "openjdk@11"
 # Friendly PIL fork (Python Imaging Library)
