@@ -102,8 +102,6 @@ brew "tmux"
 brew "todoist-cli"
 # Extremely fast Python package installer and resolver, written in Rust
 brew "uv"
-# Command-line interface for Vercel
-brew "vercel"
 # Vi 'workalike' with many additional features
 brew "vim"
 # Port of OpenAI's Whisper model in C/C++
