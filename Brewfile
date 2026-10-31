@@ -118,6 +118,8 @@ cask "1password-cli"
 cask "activitywatch"
 # Menu bar tool to limit maximum charging percentage
 cask "aldente"
+# Coding agent and development environment
+cask "amp-app"
 # Memory training application
 cask "anki"
 cask "ant"
