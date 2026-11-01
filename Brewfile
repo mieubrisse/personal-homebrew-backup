@@ -6,6 +6,8 @@ tap "mieubrisse/agenc"
 tap "mieubrisse/cmdk"
 tap "mieubrisse/yappblocker"
 tap "resend/cli"
+# Automate deployment, configuration, and upgrading
+brew "ansible"
 # Bourne-Again SHell, a UNIX command interpreter
 brew "bash"
 # Programmable completion for Bash 4.2+
@@ -44,6 +46,8 @@ brew "fzf"
 brew "gh"
 # Distributed revision control system
 brew "git"
+# Quickly rewrite git repository history
+brew "git-filter-repo"
 # Clones a git repository and keeps it synchronized with the upstream
 brew "git-sync"
 # Open source programming language to build simple/reliable/efficient software
@@ -108,6 +112,8 @@ brew "vim"
 brew "whisper.cpp"
 # Feature-rich command-line audio/video downloader
 brew "yt-dlp"
+# Kill distracting macOS apps on a schedule
+brew "mieubrisse/yappblocker/yappblocker", trusted: true
 # Command-line interface for Resend
 brew "resend/cli/resend", trusted: true
 # Password manager that keeps all passwords secure behind one password
@@ -191,6 +197,8 @@ cask "slack"
 cask "spotify"
 # Video game digital distribution service
 cask "steam"
+# Mesh VPN based on WireGuard
+cask "tailscale-app"
 # To-do list
 cask "todoist-app"
 # Calendar
@@ -203,3 +211,31 @@ cask "whatsapp"
 cask "wispr-flow"
 # Video communication and virtual meeting platform
 cask "zoom"
+vscode "anthropic.claude-code"
+vscode "github.copilot-chat"
+vscode "golang.go"
+vscode "ms-azuretools.vscode-containers"
+vscode "ms-azuretools.vscode-docker"
+vscode "ms-vscode-remote.remote-containers"
+vscode "redhat.java"
+vscode "visualstudioexptteam.intellicode-api-usage-examples"
+vscode "visualstudioexptteam.vscodeintellicode"
+vscode "vscjava.migrate-java-to-azure"
+vscode "vscjava.vscode-gradle"
+vscode "vscjava.vscode-java-debug"
+vscode "vscjava.vscode-java-dependency"
+vscode "vscjava.vscode-java-pack"
+vscode "vscjava.vscode-java-test"
+vscode "vscjava.vscode-java-upgrade"
+vscode "vscjava.vscode-maven"
+vscode "vscodevim.vim"
+go "golang.org/x/tools/cmd/deadcode"
+go "github.com/tcnksm/ghr"
+go "golang.org/x/tools/cmd/goimports"
+go "golang.org/x/tools/gopls"
+go "golang.org/x/vuln/cmd/govulncheck"
+go "github.com/oapi-codegen/oapi-codegen/v2/cmd/oapi-codegen"
+go "honnef.co/go/tools/cmd/staticcheck"
+npm "@playwright/cli"
+npm "corepack"
+npm "markdown-link-check"
