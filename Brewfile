@@ -1,5 +1,6 @@
 tap "4ier/tap"
-tap "anthropics/tap"
+tap "ampcode/tap"
+tap "anthropics/tap", trusted: { casks: ["ant"] }
 tap "artzainnn/tap", "https://github.com/Artzainnn/homebrew-tap"
 tap "dicklesworthstone/tap"
 tap "mieubrisse/agenc"
@@ -92,6 +93,8 @@ brew "pyenv"
 brew "python-tabulate"
 # Develop and deploy code with zero configuration
 brew "railway"
+# Command runner with healthchecks.io integration
+brew "runitor"
 # Static analysis and lint tool, for (ba)sh scripts
 brew "shellcheck"
 # SOund eXchange: universal sound sample translator
@@ -112,6 +115,12 @@ brew "vim"
 brew "whisper.cpp"
 # Feature-rich command-line audio/video downloader
 brew "yt-dlp"
+# Full-featured CLI for Notion. Like gh for GitHub, but for Notion.
+brew "4ier/tap/notion-cli", trusted: true
+# CLI for Amp, the frontier coding agent
+brew "ampcode/tap/ampcode", trusted: true
+# Terminal file navigator — ⌘-K for your shell
+brew "mieubrisse/cmdk/cmdk", trusted: true
 # Kill distracting macOS apps on a schedule
 brew "mieubrisse/yappblocker/yappblocker", trusted: true
 # Command-line interface for Resend
@@ -128,7 +137,6 @@ cask "aldente"
 cask "amp-app"
 # Memory training application
 cask "anki"
-cask "ant"
 # OpenAI's official ChatGPT desktop app
 cask "chatgpt"
 # Automated testing of webapps for Google Chrome
@@ -214,7 +222,6 @@ cask "wispr-flow"
 # Video communication and virtual meeting platform
 cask "zoom"
 vscode "anthropic.claude-code"
-vscode "github.copilot-chat"
 vscode "golang.go"
 vscode "ms-azuretools.vscode-containers"
 vscode "ms-azuretools.vscode-docker"
