@@ -9,6 +9,8 @@ tap "mieubrisse/yappblocker"
 tap "resend/cli"
 # Automate deployment, configuration, and upgrading
 brew "ansible"
+# B2 Cloud Storage Command-Line Tools
+brew "b2-tools"
 # Bourne-Again SHell, a UNIX command interpreter
 brew "bash"
 # Programmable completion for Bash 4.2+
