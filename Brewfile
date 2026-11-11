@@ -95,6 +95,8 @@ brew "pyenv"
 brew "python-tabulate"
 # Develop and deploy code with zero configuration
 brew "railway"
+# Fast, efficient and secure backup program
+brew "restic"
 # Command runner with healthchecks.io integration
 brew "runitor"
 # Static analysis and lint tool, for (ba)sh scripts
