@@ -1,3 +1,4 @@
+tap "4ier/tap"
 tap "ampcode/tap"
 tap "anthropics/tap", trusted: { casks: ["ant"] }
 tap "artzainnn/tap", "https://github.com/Artzainnn/homebrew-tap"
@@ -118,6 +119,8 @@ brew "vim"
 brew "whisper.cpp"
 # Feature-rich command-line audio/video downloader
 brew "yt-dlp"
+# Full-featured CLI for Notion. Like gh for GitHub, but for Notion.
+brew "4ier/tap/notion-cli", trusted: true
 # CLI for Amp, the frontier coding agent
 brew "ampcode/tap/ampcode", trusted: true
 # Terminal file navigator — ⌘-K for your shell
